@@ -1,0 +1,95 @@
+/* shared style */
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(246, 248, 254);
+}
+.container{
+    max-width: 1080px;
+    margin:0 auto;
+}
+.color{
+    color: #E95A08;
+}
+.font-1{
+    font-family: "Inter", sans-serif;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+.cart ul{
+    display: flex;
+    gap:48px;
+    padding-top:24px;
+    padding-bottom: 24px;
+}
+.cart ul li{
+    list-style: none;
+}
+.cart ul li a{
+    text-decoration: none;
+}
+.dark{
+    color: rgb(137, 135, 161);
+}
+.font{
+    font-weight:700;
+    color: rgb(37, 36, 50);
+}
+.shop{
+    font-weight:400;
+    color: rgb(0, 0, 0);
+}
+
+
+
+/* banner style */
+.banner{
+    display: flex;
+    align-items: flex-end;
+    margin-top:230px;
+    gap:4px;
+}
+.banner-description h2{
+    font-size:4rem;
+    font-weight:700;
+    line-height: 4rem;
+}
+.banner-description p{
+    font-size:21px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 13px;
+}
+.banner-image{
+    border: 2px dashed rgba(0, 0, 0, 0.4);
+   
+
+    
+    
+    
+}
+@media (max-width:768px){
+    .hide{
+        display: none;
+    }
+    .logo{
+        margin-left:16px ;
+        
+    }
+    .shop{
+        margin-right:16px;
+    
+    }
+    /* banner style */
+    .banner{
+        flex-direction:column-reverse;
+    }
+}
