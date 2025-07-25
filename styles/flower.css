@@ -315,9 +315,8 @@ main {
 }
 
 /* join section related styles */
-.join {
+.join{
     margin-top: 120px;
-   
 }
 
 .join_div {
@@ -325,12 +324,15 @@ main {
     background-repeat: no-repeat;
     background-color: rgba(7, 51, 79, 0.4);
     background-blend-mode: overlay;
-    background-size: cover;
+    background-size:cover;
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+
+    
 
 }
 
@@ -538,16 +540,16 @@ main {
 
         height: 350px;
          width: 100%;
-         
-        
          background-size: cover;
          background-position: center;
+        
        }
 
     .join_tittle {
         font-weight: bold;
         color: #FFFFFF;
         font-size: 20px;
+        
     }
 
 
